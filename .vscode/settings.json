@@ -14,5 +14,9 @@
     ],
     "idf.portWin": "COM4",
     "idf.pythonBinPathWin": "d:\\.espressif\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
-    "idf.toolsPathWin": "d:\\.espressif"
+    "idf.toolsPathWin": "d:\\.espressif",
+    "files.associations": {
+        "esp_idf_lib_helpers.h": "c",
+        "chrono": "c"
+    }
 }
