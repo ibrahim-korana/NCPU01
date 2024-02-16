@@ -2,7 +2,7 @@
 # CMakeLists in this exact order for cmake to work correctly
 cmake_minimum_required(VERSION 3.5)
 
-set(PROJECT_VER "1.1.0.13")
+set(PROJECT_VER "1.1.1.0")
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
 project(NCPU01)
 spiffs_create_partition_image(storage data FLASH_IN_PROJECT)
@@ -44,3 +44,6 @@ spiffs_create_partition_image(storage data FLASH_IN_PROJECT)
 #1.1.0.13
   # main.cpp ye icemqtt.com.tr için dnsquery eklendir ve loglara yazdırıldı. 
   # loglar yönlendirildi
+
+#1.1.1.0
+  # IDF 5.1.2 ye yükseltildi.  

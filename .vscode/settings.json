@@ -18,5 +18,6 @@
     "files.associations": {
         "esp_idf_lib_helpers.h": "c",
         "chrono": "c"
-    }
+    },
+    "idf.flashType": "UART"
 }
